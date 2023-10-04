@@ -1,4 +1,8 @@
-arr=[1,2,2,3,4,5]
-for i in arr:
-  print(i)
-  //123 
+int main() {
+int var = 7;
+if (var < 2) {
+  printf("roblox is life");
+} else {
+  printf("ohio griddy challenge");
+}
+}
