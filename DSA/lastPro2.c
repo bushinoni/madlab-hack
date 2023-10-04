@@ -1,11 +1,17 @@
 #include<stdio.h>
-int main()
+//faren to celcius 
+float fahrenheit_to_celcius(float f)
 {
- printf("hello2u sir ji"); 
- 
+    return ((f - 32.0) * 5.0 / 9.0);
 }
+  
+// Driver code
 int main()
 {
- printf("hello jiඞඞඞඞඞ"); 
- 
+    float f = 40;
+  
+    // Passing parameter to function
+    printf("Temperature in Degree Celsius : %0.2f",
+           fahrenheit_to_celsius(f));
+    return 0;
 }
