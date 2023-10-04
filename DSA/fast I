@@ -1,2 +1,4 @@
-print("amongus")
-//big chungus
+int main()
+{
+ printf(" hello " ); 
+}
